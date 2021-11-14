@@ -1,0 +1,16 @@
+
+$azul:#1D4EAA;
+$azul-escuro: #243975;
+$amarelo:#F4CB2E;
+
+@mixin font-normal {
+    font-family: interstate,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@mixin font-bold {
+    font-family: interstate,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
