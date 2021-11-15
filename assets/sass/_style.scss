@@ -3,6 +3,7 @@ $azul:#1D4EAA;
 $azul-escuro: #243975;
 $amarelo:#F4CB2E;
 $laranja:#DF4F2C;
+$verde:#AAB638;
 
 @mixin font-normal {
     font-family: interstate,sans-serif;
@@ -18,4 +19,11 @@ $laranja:#DF4F2C;
 
 h1, h2, h3, h4, button{
     @include font-bold;
+}
+
+ul{
+    padding: 0;
+    li{
+        list-style: none;
+    }
 }
