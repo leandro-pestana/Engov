@@ -44,10 +44,20 @@
       </article>
   </section>
 
-  <section class="conteiner-fluid engov-after-home d-flex justify-content-center">
-        <article class="row d-flex flex-column">
-            <div>
-                <img src="assets/images/Videoleap-6FFA0426-4FF6-4202-A2FD-113D22F049DC-BAIXA_PosterImage.png" alt="">
+  <section class="engov-after-home conteiner-fluid ">
+        <article class="row d-flex justify-content-center" >
+            <div class="d-flex flex-column col-md-10">
+                <img src="assets/images/poca-engov-after.mp4" alt="">
+                <img class="logo-engov-after" src="assets/images/logo-engov-after.svg" alt="Engov After">
+            </div>
+         </article>
+         <article class="row d-flex justify-content-center">
+            <div class="d-flex flex-column col-md-10 box-produto">
+                <img class="rounded mx-auto d-block" src="assets/images/familia-engov-after.png" alt="Engov After">
+                <h2 class="text-center">4 SABORES<br/><span>PRA TODOS OS GOSTOS</span></h2>
+                <div class="d-flex justify-content-center">
+                    <button>CONHEÇA</button>
+                </div>
             </div>
          </article>
   </section>

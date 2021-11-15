@@ -20,8 +20,38 @@
     h1{
         font-size: 30px;
         color: $azul-escuro;
-        @include font-bold;
     }
     margin: 80px 0px;
 
+}
+
+.engov-after-home{
+    .logo-engov-after{
+        margin: -50px 0px;
+        z-index: 999;
+    }
+    .box-produto{
+        margin-top: -70px;
+        padding: 200px 0px 100px 0px;
+        background-color: $laranja;
+
+        h2{
+            font-size: 3em;
+            line-height: 34px;
+            color: #fff;
+            padding: 20px 0px;
+        }
+        span{
+            font-size: 24px;
+        }   
+    }
+}
+
+button{
+    border: solid 2px #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: transparent;
+    width: fit-content;
+    color: #fff;
 }

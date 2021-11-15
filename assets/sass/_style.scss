@@ -2,6 +2,7 @@
 $azul:#1D4EAA;
 $azul-escuro: #243975;
 $amarelo:#F4CB2E;
+$laranja:#DF4F2C;
 
 @mixin font-normal {
     font-family: interstate,sans-serif;
@@ -14,3 +15,7 @@ $amarelo:#F4CB2E;
     font-weight: 700;
     font-style: normal;
   }
+
+h1, h2, h3, h4, button{
+    @include font-bold;
+}
