@@ -32,8 +32,8 @@
               <img class="rounded mx-auto d-block" src="assets/images/logo-bonde-da-curticao-engov.png " alt="">
           </div>
 
-          <div class=" col-md-10 embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5ALlpUN4cbc?rel=0" allowfullscreen></iframe>
+          <div class="video-banner col-md-10 embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5ALlpUN4cbc?rel=0?autoplay=1" allowfullscreen></iframe>
         </div>       
 
       </article>
@@ -93,11 +93,31 @@
         <div class="col-md-6 d-flex flex-column">
             <h3 class="text-center">ACOMPANHE NOSSOS CANAIS<br/> E FIQUE POR DENTRO DE TUDO</h3>
             <ul class="d-flex justify-content-evenly" >
-                <li><img src="assets/images/instagram-icon.svg" alt=""></li>
-                <li><img src="assets/images/facebook-icon.svg" alt=""></li>
-                <li><img src="assets/images/tiktok-icon.svg" alt=""></li>
-                <li><img src="assets/images/youtube-icon.svg" alt=""></li>
-                <li><img src="assets/images/spotify-icon.svg" alt=""></li>
+                <li>
+                    <a href="https://www.instagram.com/engov_oficial/?hl=pt-br" target="_blank">
+                        <img src="assets/images/instagram-icon.svg" alt="Engov Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://pt-br.facebook.com/EngovOficial/" target="_blank">
+                        <img src="assets/images/facebook-icon.svg" alt="Facebook Engov">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@engov_oficial">
+                        <img src="assets/images/tiktok-icon.svg" alt="TikTok Engov">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCN0cS7r0amFG_UmRa6CsQ_w">
+                         <img src="assets/images/youtube-icon.svg" alt="Youtube Engov">   
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/user/fnguo5re25dpg15abhawau4e9">
+                          <img src="assets/images/spotify-icon.svg" alt="Spotify Engov">
+                    </a>
+                </li>
             </ul>
         </div>
     </article>
@@ -114,7 +134,7 @@
 <footer class="container-fluid">
     <article class="row d-flex justify-content-center">
         <div class="col-md-8 d-flex flex-column">
-            <ul class="d-flex justify-content-md-between" >
+            <ul class="d-flex flex-column text-center">
                 <li>CONTATO</li>
                 <li>TERMOS DE USO</li>
                 <li>POLÍTICA DE PRIVACIDADE</li>
@@ -123,7 +143,7 @@
         </div>
     </article>
     <article class="row d-flex justify-content-center">
-        <div  class="col-md-8 d-flex flex-column">
+        <div  class="col-md-8 d-flex flex-column logo-footer">
             <img class="rounded mx-auto d-block mt-5 pt-5" src="assets/images/logo-bonde-da-curticao-engov.png" alt="">
         </div>
     </article>

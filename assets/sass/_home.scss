@@ -3,17 +3,30 @@
 }
 
 .banner-home{
-    height: 575px;
+    height: 75%;
     background-color: $azul;
     padding: 50px 0px 0px 0px ;
-    margin-bottom: 150px;
+    margin-bottom: 20%;
     article img{
         &:first-child{
             margin-bottom: -100px;
             display: block;
             position: relative;
             z-index: 999;
+            @media (max-width: 700px){
+                max-width: 90%;
+            }
         }
+    }
+}
+
+
+.video-banner{
+    iframe{
+        width: 100% !important;
+    }
+    @media (max-width: 700px){
+        margin-top: 40%;
     }
 }
 
@@ -33,6 +46,10 @@ button{
     background: transparent;
     width: fit-content;
     color: #fff;
+    &:hover{
+        background-color: #fff;
+        color: $azul-escuro;
+    }
 }
 
 
@@ -43,6 +60,9 @@ button{
             line-height: 34px;
             color: #fff;
             padding: 20px 0px;
+            @media (max-width: 700px){
+                line-height: 48px;             
+            }
         }
         span{
             font-size: 24px;
@@ -70,6 +90,17 @@ button{
     }
 }
 
+.engov-after-home, .engov-home{
+    .box-produto{
+        img{
+            max-width: 100%;
+            @media (max-width: 700px){
+                max-width: 90%;
+            }
+        }
+    }
+}
+
 
 .canais-home{
     h3{
@@ -78,6 +109,11 @@ button{
     }
     ul{
         margin-top: 20px;
+        li img{
+            @media (max-width: 700px){
+                max-width: 90%;
+            }
+        }
     }
     article{
         margin: 100px 0px;
@@ -91,6 +127,11 @@ footer{
     .dengue{
         color: #fff;
         background-color: #000;
+    }
+    .logo-footer img{
+        @media (max-width: 700px){
+            max-width: 90%;
+        }
     }
     
 }
